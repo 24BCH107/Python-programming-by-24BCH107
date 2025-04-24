@@ -1,0 +1,23 @@
+
+sub1 = int(input("Enter the maths marks:"))
+sub2 = int(input("Enter the chemistry marks:"))
+sub3 = int(input("Enter the physics marks:"))
+sum = ( sub1 + sub2 + sub3 ) / 3
+if(sub1 <= 39 or sub2 <=39 or sub3<=39):
+print("Fail")
+elif(sum>= 40 and sum <=44 ):
+print("P")
+elif(sum>= 45 and sum <=49 ):
+print("C")
+elif(sum>= 50 and sum <=54 ):
+print("B")
+elif(sum>= 55 and sum <=59 ):
+print("B+")
+elif(sum>= 60 and sum <= 69 ):
+print("A")
+elif(sum>= 70 and sum <= 79):
+print("A+")
+elif(sum>= 80 and sum <=100 ):
+print("O")
+else:
+print("good")

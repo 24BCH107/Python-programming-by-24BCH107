@@ -1,0 +1,3 @@
+dollar=8465
+RS=dollar*48
+print(RS)

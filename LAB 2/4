@@ -1,0 +1,5 @@
+num = 265
+if(num%10==0):
+print("it is divisiable by 10")
+else:
+print("not it is not divisiable by 10")

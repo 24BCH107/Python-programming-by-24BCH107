@@ -1,0 +1,33 @@
+stacks = []
+def push(item):
+stacks.append(item)
+print(f"Item {item} pushed onto stacks.")
+def pop():
+if stacks:
+item = stacks.pop()
+print(f"Item {item} popped from stacks.")
+return item
+else:
+print("Stack is empty. Cannot pop item.")
+return None
+def display():
+print("Stack contents:", stacks)
+while True:
+print("\nMenu:")
+print("1. Push")
+print("2. Pop")
+print("3. Display stacks")
+print("4. Exit")
+choice = input("Enter your choice (1-4): ")
+if choice == '1':
+item = input("Enter the item to push: ")
+push(item)
+elif choice == '2':
+pop()
+elif choice == '3':
+display()
+elif choice == '4':
+print("Exiting program.")
+break
+else:
+print("Invalid choice. Please enter a number between 1 and 4.")

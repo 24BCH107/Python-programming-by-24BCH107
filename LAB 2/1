@@ -1,0 +1,10 @@
+num1= 58
+num2 = 98
+if (num1>num2):
+print("Num1 is largest values")
+else:
+print("num1 is smallest")
+if(num2>num1):
+print("num2 is largest values")
+else:
+print("num2 is smallest")

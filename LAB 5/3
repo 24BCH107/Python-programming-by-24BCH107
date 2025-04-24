@@ -1,0 +1,5 @@
+import random
+random_num = [random.randint(1, 30) for _ in range(50)]
+print("List of 50 random numbers:", random_num)
+unique_num = list(set(random_num))
+print("List after removing duplicates:", unique_num)

@@ -1,0 +1,3 @@
+kgs=4865
+Grams=kgs*1000
+print(Grams)

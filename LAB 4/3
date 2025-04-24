@@ -1,0 +1,13 @@
+def count_digits_of_alphabets(input_string):
+alphabt_of_counte = 0
+digit_of_count = 0
+for char in input_string:
+if char.isalpha():
+alphabt_of_counte += 1
+elif char.isdigit():
+digit_of_count += 1
+return alphabt_of_counte, digit_of_count
+input_of_string = input("Enter a string: ")
+alphabets, digits = count_digits_of_alphabets(input_of_string)
+print(f"Number of alphabets: {alphabets}")
+print(f"Number of digits: {digits}")

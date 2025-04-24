@@ -1,0 +1,6 @@
+list1 = [98, 97, 86, 76, 80, 48, 56, 66, 82]
+list2 = [66, 56, 82, 46, 48]
+list3 = [num for num in list1 if num not in list2]
+print("First list:", list1)
+print("Second list:", list2)
+print("Third list (numbers in first list not in second list):", list3)

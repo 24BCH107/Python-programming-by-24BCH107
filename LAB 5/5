@@ -1,0 +1,3 @@
+list_of_strings = ["hello", "world", "python", "programming", "rocks"]
+uppercase_strings = [string.upper() for string in list_of_strings]
+print("List of uppercase strings:", uppercase_strings)

@@ -1,0 +1,3 @@
+grams=79841
+KG=grams/1000
+print(KG)

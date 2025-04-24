@@ -1,0 +1,6 @@
+Maths=92
+Chemistry=89
+Physics=77
+total=Maths+Chemistry+Physics
+Average=total/3
+print(total,Average)

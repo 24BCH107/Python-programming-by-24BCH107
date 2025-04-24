@@ -1,0 +1,5 @@
+gs=46582
+a=gs*10/100
+d=gs*3/100
+NS=gs+a-d
+print(NS)

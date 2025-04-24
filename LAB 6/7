@@ -1,0 +1,5 @@
+main_tuple = (14, 25, 36, 47, 59)
+index_to_delete = 2
+modified_tuple = main_tuple[:index_to_delete] + main_tuple[index_to_delete + 1:]
+print("Original tuple:", main_tuple)
+print("Modified tuple:", modified_tuple)

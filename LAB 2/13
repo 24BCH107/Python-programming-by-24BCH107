@@ -1,0 +1,12 @@
+numbers = 13
+numbers_word = [
+"zero", "one", "two", "three", "four", "five", "six", "seven",
+"eight", "nine",
+"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
+"sixteen",
+"seventeen", "eighteen", "nineteen"
+]
+if 0 <= numbers <= 19:
+print(f"The number {numbers} is written as'{numbers_word[numbers]}'.")
+else:
+print("Number is out of range (0-19).

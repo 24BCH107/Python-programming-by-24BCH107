@@ -1,0 +1,35 @@
+def is_prime(num):
+if num <= 1:
+return False
+for b in range(2, int(num ** 0.5) + 1):
+if num % b == 0:
+return False
+return True
+def is_perfect(num):
+if num <= 0:
+return False
+sum_of_divisors = 0
+for b in range(1, num):
+if num % b== 0:
+sum_of_divisors += b
+return sum_of_divisors == num
+def is_armstrong(num):
+num_str = str(num)
+num_length = len(num_str)
+sum_of_powers = 0
+for digit in num_str:
+sum_of_powers += int(digit) ** num_length
+return sum_of_powers == num
+def is_palindrome(num):
+num_str = str(num)
+return num_str == num_str[::-1]
+def is_automorphic(num):
+num_str = str(num)
+square_str = str(num ** 2)
+return square_str.endswith(num_str)
+number = int(input("Enter a number: "))
+print(f"Is {number} prime? {'Yes' if is_prime(number) else 'No'}")
+print(f"Is {number} perfect? {'Yes' if is_perfect(number) else 'No'}")
+print(f"Is {number} Armstrong? {'Yes' if is_armstrong(number) else 'No'}")
+print(f"Is {number} palindrome? {'Yes' if is_palindrome(number) else 'No'}")
+print(f"Is {number} automorphic? {'Yes' if is_automorphic(number) else 'No'}")

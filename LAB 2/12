@@ -1,0 +1,14 @@
+import math
+circle_m = 12
+circle_n = 165
+radius = 62
+point_m = 62
+point_n = 62
+distance = math.sqrt(math.pow(point_m - circle_m, 2) +
+math.pow(point_n - circle_n, 2))
+if distance < radius:
+print(f"The point ({point_m}, {point_n}) is inside the circle.")
+elif distance == radius:
+print(f"The point ({point_m}, {point_n}) is on the circle.")
+else:
+print(f"The point ({point_m}, {point_n}) is outside the circle.")

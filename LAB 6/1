@@ -1,0 +1,13 @@
+def count_boys_and_girls(names_of_list):
+boys_of_count = 0
+girls_of_count = 0
+for ele in names_of_list:
+if isinstance(ele, tuple):
+boys_of_count += 1
+else:
+girls_of_count += 1
+return boys_of_count, girls_of_count
+names_of_list = [("John",), "Emma", ("Mike",), "Sophia", "Olivia", ("David",)]
+boys, girls = count_boys_and_girls(names_of_list)
+print(f"Number of boys: {boys}")
+print(f"Number of girls: {girls}")

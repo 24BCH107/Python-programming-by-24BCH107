@@ -1,0 +1,6 @@
+main_tuple = (12, 23, 34, 45, 56)
+index_to_modify = 2
+new_value = 105
+modified_tuple = main_tuple[:index_to_modify] + (new_value,) + main_tuple[index_to_modify + 1:]
+print("Original tuple:", main_tuple)
+print("Modified tuple:", modified_tuple)

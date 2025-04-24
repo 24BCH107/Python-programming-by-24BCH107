@@ -1,0 +1,4 @@
+gs=645621
+d=gs*10/100
+NS=gs-d
+print(NS)

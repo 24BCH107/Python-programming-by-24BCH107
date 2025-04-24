@@ -1,0 +1,7 @@
+sidea = int(input("Enter the 1st side:"))
+sideb = int(input("Enter the 2nd side:"))
+sidec = int(input("Enter the 3rd side:"))
+if(sidea + sideb +sidec == 180):
+print("triange is valid")
+else:
+print("triange is invalid")

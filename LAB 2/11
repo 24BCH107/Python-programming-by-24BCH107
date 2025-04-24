@@ -7,3 +7,5 @@ y3 =59
 a = (x1*(y2-y3))+(x2*(y3-y1))+(x3*(y1-y2))
 if (a == 0):
 print('all the points fall on one stright line')
+else:
+print("all the points dont fall on one stright line")

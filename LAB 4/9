@@ -1,0 +1,7 @@
+def print_natural_numbers_reverse(N):
+for w in range(N, 0, -1):
+print(w, end=" ")
+print()
+N = int(input("Enter the value of N: "))
+print(f"The first {N} natural numbers in reverse order are:")
+print_natural_numbers_reverse(N)

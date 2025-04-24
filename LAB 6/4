@@ -1,0 +1,8 @@
+# List of tuples containing food items and their prices
+food_items = [("Ramen", 9.99), ("Burger", 6.79), ("Sushi", 14.69), ("Noodles", 7.49), ("Salad", 4.99)]
+# Sort the list of tuples in descending order by price of food items
+sorted_food_items = sorted(food_items, key=lambda item: item[1], reverse=True)
+# Print the sorted list of food items
+print("Sorted food items by price (descending):")
+for item in sorted_food_items:
+print(f"{item[0]}: ${item[1]:.2f}")

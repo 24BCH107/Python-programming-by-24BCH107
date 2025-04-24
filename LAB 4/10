@@ -1,0 +1,11 @@
+def generate_fibonacci_series(m):
+fibonacci_series = []
+a, b = 0, 1
+for _ in range(m):
+fibonacci_series.append(a)
+a, b = b, a + b
+return fibonacci_series
+m = int(input("Enter the value of m: "))
+fibonacci_series = generate_fibonacci_series(m)
+print(f"The first {m} numbers of the Fibonacci series are:")
+print(fibonacci_series)

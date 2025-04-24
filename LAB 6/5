@@ -1,0 +1,7 @@
+# list of tuples with some empty tuples
+tuples_list = [("Pizza", 8.99), (), ("Burger", 5.99), (), ("Sushi", 12.99), ("Pasta", 7.49), (), ("Salad", 4.99)]
+# Remove empty tuples
+filtered_tuples_list = [tup for tup in tuples_list if tup]
+# Print the filtered list
+print("List after removing empty tuples:")
+print(filtered_tuples_list)

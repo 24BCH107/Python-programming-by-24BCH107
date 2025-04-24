@@ -1,0 +1,4 @@
+dollar=5462
+rs=dollar*72
+Pound=rs/90
+print(Pound)

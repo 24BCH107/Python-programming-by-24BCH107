@@ -1,0 +1,11 @@
+def print_24_hours_with_suffixes():
+for hour in range(0, 24):
+if hour == 0:
+print("12 Midnight")
+elif hour < 12:
+print(f"{hour} AM")
+elif hour == 12:
+print("12 Noon")
+else:
+print(f"{hour - 12} PM")
+print_24_hours_with_suffixes()

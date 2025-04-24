@@ -1,0 +1,15 @@
+num1 = 83
+num2 = 951
+num3 = 1254
+if(num1>num2 and num1 >num3):
+print("num1 is largest values")
+else:
+print("num1 is smallest")
+if(num2>num3 and num2>num1):
+print("num2 is largest values")
+else:
+print("num2 is smallest")
+if(num3>num1 and num3>num2):
+print("num3 is largest")
+else:
+print("num3 is smallest")

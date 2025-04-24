@@ -1,0 +1,3 @@
+Fahrenheit=645
+Celcius=5/9*(Fahrenheit-32)
+print(Celcius)

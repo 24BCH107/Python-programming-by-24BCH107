@@ -1,0 +1,7 @@
+import random
+random_num = [random.randint(-50, 50) for _ in range(30)]
+print("List of 30 random numbers:", random_num)
+positive_num = [num for num in random_num if num > 0]
+negative_num = [num for num in random_num if num < 0]
+print("List of positive numbers:", positive_num)
+print("List of negative numbers:", negative_num)

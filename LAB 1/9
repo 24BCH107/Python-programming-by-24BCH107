@@ -1,0 +1,3 @@
+rs=654324
+Dollar=rs/78
+print(Dollar)

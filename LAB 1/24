@@ -1,0 +1,6 @@
+V1=4248
+V2=5432
+temp=V1
+V1=V2
+V2=temp
+print(V1,V2)
